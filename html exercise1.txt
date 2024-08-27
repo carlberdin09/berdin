@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #731883;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #e23a00;
+        }
+        .team-member {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        .team-member img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 15px;
+        }
+        .team-member h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .team-member p {
+            margin: 5px 0;
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meet Our Team</h1>
+        <div class="team-member">
+            <img src="carl.jpg" alt="Carl Berdin">
+            <div>
+                <h2>Carl Berdin</h2>
+                <p>Aspiring IT Specialist</p>
+              <p>01-21-2004</p>
+              <p>I am IT student and i believe to my self that i can do everthing for my self to become professional IT.  </p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="ricky.jpg" alt="Ricky Pili">
+            <div>
+                <h2>Ricky Pili</h2>
+              <p>05-02-2001</p>
+              <p>Aspiring IT Specialist</p>
+                <p>I am a hardworking student and i will do everything to achieve my dreams. i will make my family proud. </p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="feb.jpg" alt="Mary Malinao">
+            <div>
+                <h2>Mary Feb Malinao</h2>
+              <p>02-16-2002</p>
+              <p>Aspiring IT Specialist</p>
+                <p>I am a 4th-year student with an irregular standing, working hard to finish my studies. i aim to join a good company after i graduated.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="marc.jpg" alt="Marc Dionisio">
+            <div>
+                <h2>Marc Dionisio</h2>
+              <p>09-18-2004</p>
+              <p>Aspiring IT Specialist</p>
+                <p>Being an It Student, it's challenging and exciting at the same time. i'll push my self to learn and gain knowledge in HTML.</p>
+            </div>
+        </div>
+        <div class="team-member">
+            <img src="marco.jpg" alt="Marco Haloc">
+            <div>
+                <h2>Marco Haloc</h2>
+              <p>09-16-2004</p>
+              <p>Aspiring IT Specialist</p>
+                <p>My Hobby is to play Basketball. i always making time to learn the HTML to improve and have knowledge in how website works.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
